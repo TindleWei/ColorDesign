@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:dither="true" android:shape="rectangle">
+                    <corners android:radius="@dimen/color_button_radius" />
+
+                    <solid android:color="@color/color_purple700" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:dither="true" android:shape="rectangle">
+                    <corners android:radius="@dimen/color_button_radius" />
+
+                    <solid android:color="@color/color_purple700" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/color_button_bottom">
+                <shape android:dither="true" android:shape="rectangle">
+                    <corners android:radius="@dimen/color_button_radius" />
+
+                    <solid android:color="@color/color_purple" />
+
+                    <padding android:bottom="8dp" android:left="8dp" android:right="8dp" android:top="8dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

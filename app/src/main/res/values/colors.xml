@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_bg">#000000</color>
+    <color name="actionbar_light_grey">#ffefefef</color>
+    <color name="text_dark87">#de000000</color>
+    <color name="text_dark54">#8a000000</color>
+    <color name="text_dark21">#4a000000</color>
+    <color name="text_light87">#deffffff</color>
+    <color name="text_light54">#8affffff</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_dogder_blue">#1e90ff</color>
+    <color name="background_cardview">#dbdbdb</color>
+    <color name="background_white">#ffffffff</color>
+    <color name="background_grey">#77cccccc</color>
+    <color name="background_light">#f5f5f5</color>
+    <color name="background_light_deep">#d6d6d6</color>
+    
+    <color name="color_red">#f44336</color>
+    <color name="color_red700">#d32f2f</color>
+    <color name="color_pink">#e91e63</color>
+    <color name="color_pink700">#c2185b</color>
+    <color name="color_purple">#9c27b0</color>
+    <color name="color_purple700">#7b1fa2</color>
+    <color name="color_deep_purple">#673ab7</color>
+    <color name="color_deep_purple700">#512da8</color>
+    <color name="color_indigo">#3f51b5</color>
+    <color name="color_indigo700">#303f9f</color>
+    <color name="color_blue">#5677fc</color>
+    <color name="color_blue700">#455ede</color>
+    
+    
+    <color name="color_light_blue">#03a9f4</color>
+    <color name="color_light_blue700">#0288d1</color>
+    <color name="color_cyan">#00bcd4</color>
+    <color name="color_cyan700">#0097a7</color>
+    <color name="color_teal">#009688</color>
+    <color name="color_teal700">#00796b</color>
+    <color name="color_green">#259b24</color>
+    <color name="color_green700">#0a7e07</color>
+    
+    <color name="color_light_green">#8bc34a</color>
+    <color name="color_light_green700">#689f38</color>
+    <color name="color_lime">#cddc39</color>
+    <color name="color_lime700">#afb42b</color>
+    <color name="color_yellow">#ffeb3b</color>
+    <color name="color_yellow700">#fbc02d</color>
+    <color name="color_amber">#ffc107</color>
+    <color name="color_amber700">#ffa000</color>
+    
+    <color name="color_orange">#ff9800</color>
+    <color name="color_orange700">#f57c00</color>
+    <color name="color_deep_orange">#ff5722</color>
+    <color name="color_deep_orange700">#e64a19</color>
+    <color name="color_brown">#795548</color>
+    <color name="color_brown700">#5d4037</color>
+    <color name="color_grey">#9e9e9e</color>
+    <color name="color_grey700">#616161</color>
+    <color name="color_blue_grey">#607d8b</color>
+    <color name="color_blue_grey700">#455a64</color>
+    <color name="color_light_grey">#fafafa</color>
+    <color name="color_light_grey700">#eeeeee</color>
+
+</resources>
