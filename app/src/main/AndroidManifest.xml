@@ -13,7 +13,7 @@
         </activity>
 
         <activity
-            android:name="com.menkey.colordesign.DynamicLayoutActivity"
+            android:name="com.menkey.colordesign.DynamicLayout2Activity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
