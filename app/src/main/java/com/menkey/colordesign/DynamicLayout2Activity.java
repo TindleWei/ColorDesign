@@ -71,6 +71,9 @@ public class DynamicLayout2Activity extends FragmentActivity {
         setContentView(myLayout);
     }
 
+    /**
+     * sdk_int < 17 or >17 
+     */
     public void genViewId(View view) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR1) {
             view.setId(generateViewId());
