@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="......一个很长很长的字符串......" />
 
-            <Button
+            <!--<Button
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_margin="10dp"
@@ -125,7 +125,7 @@
                     android:text=""
                     android:textColor="@color/text_dark54"
                     android:textSize="16dp" />
-            </LinearLayout>
+            </LinearLayout>-->
         </LinearLayout>
     </com.menkey.colordesign.view.ElasticScrollView>
 

@@ -54,6 +54,18 @@ public class ElasticScrollView extends ScrollView {
     }
 
     /**
+     * 在代码生成布局生成后，执行下面的代码
+     * @must 只有代码布局时需要， XML完成有onFinishInflate()
+     */
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        if (getChildCount() > 0) {
+            innerView = getChildAt(0);
+        }
+    }
+
+    /**
      * 继承自ViewGroup
      * 返回true, 截取触摸事件
      * 返回false, 将事件传递给onTouchEvent()和子控件的dispatchTouchEvent()
