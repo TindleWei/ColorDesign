@@ -11,6 +11,8 @@ import com.menkey.colordesign.view.ElasticScrollView;
 
 /**
  * Created by mac on 15/2/17.
+ *
+ * ElasticScrollView
  */
 public class DynamicLayout3Activity extends FragmentActivity {
 
@@ -22,7 +24,7 @@ public class DynamicLayout3Activity extends FragmentActivity {
         mContext = this;
 
         ElasticScrollView myScrollView = new ElasticScrollView(mContext);
-//        myScrollView.setVerticalScrollBarEnabled(false);
+//      myScrollView.setVerticalScrollBarEnabled(false);
 
         LinearLayout llayout = new LinearLayout(mContext);
         llayout.setOrientation(LinearLayout.VERTICAL);

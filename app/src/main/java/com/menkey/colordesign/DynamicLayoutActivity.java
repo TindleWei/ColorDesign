@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 /**
  * Created by mac on 15/2/15.
+ *
+ * LinearLayout & onClickListener
  */
 public class DynamicLayoutActivity extends FragmentActivity {
 
