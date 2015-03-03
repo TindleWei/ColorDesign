@@ -3,6 +3,7 @@ package com.menkey.colordesign;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -22,6 +23,8 @@ public class DynamicLayoutActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        long start = System.currentTimeMillis();
+
         mContext = this;
 
         LinearLayout llayout = new LinearLayout(mContext);
@@ -35,10 +38,10 @@ public class DynamicLayoutActivity extends FragmentActivity {
         TextView tv = new TextView(mContext);
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
-        lp.setMargins(28,28,28,28);
+        lp.setMargins( 8, 8, 8, 8);
 
         tv.setLayoutParams(lp);
-        tv.setText("Test HaHaHa~");
+        tv.setText("This is TextView");
         tv.setPadding(8, 8, 8, 8);
 
         llayout.addView(tv);
@@ -52,14 +55,18 @@ public class DynamicLayoutActivity extends FragmentActivity {
 
         setContentView(llayout);
 
+
+        long end = System.currentTimeMillis();
+        long time = end - start;
+        Log.e("Time", String.valueOf(time));
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(mContext,
-                "This is dynamic activity", Toast.LENGTH_LONG).show();
+                        "This is dynamic activity", Toast.LENGTH_LONG).show();
             }
         });
-
 
     }
 
